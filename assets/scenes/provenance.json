@@ -1,0 +1,334 @@
+{
+  "description": "Original references versus edited Gothic candidates, not an adapter-off/on controlled experiment.",
+  "preview_processing": "Aspect-ratio-preserving resizing and JPEG encoding only; no new image generation.",
+  "rights_notice": "Third-party film references and characters belong to their respective rights holders. No ownership, redistribution license, endorsement, or training permission is claimed.",
+  "video_status": "No generated videos. Castle and four scene requests were moderated as Protected Content.",
+  "scenes": [
+    {
+      "id": "00-disney",
+      "title": "Disney castle opening",
+      "original_source": {
+        "source_type": "User-supplied reference image",
+        "source_file": "castle-source.png"
+      },
+      "original_sha256": "74a69860e170d7f7305acc8c2fe3b08f068bae6d0474f9de5e7e293e3cc94a33",
+      "original_dimensions": [
+        1358,
+        850
+      ],
+      "original_preview": "00-disney-original.jpg",
+      "first_frame": "00-disney-first.jpg",
+      "first_frame_dimensions": [
+        2048,
+        1152
+      ],
+      "first_generation": {
+        "model": "black-forest-labs/flux-3-image-klein",
+        "revision": "337337621b8526e120f2275d250242f4a6bedd75",
+        "scale": 0.75,
+        "seed": 73401,
+        "steps": 16,
+        "width": 2048,
+        "height": 1152,
+        "sha256": "24e9c1e70f362a001dd6e8a0ab15a9394dd43ccf3756c4f73f6feac11e967811"
+      },
+      "checkpoint_step": 1500,
+      "end_frame": null,
+      "end_status": "not_generated"
+    },
+    {
+      "id": "01-shrek",
+      "title": "Shrek — outhouse entrance",
+      "original_source": {
+        "source_page": "https://cardiff.shorthandstories.com/-shrek-month-therapy/index.html",
+        "image_url": "https://cardiff.shorthandstories.com/-shrek-month-therapy/assets/sb7iQ9xc4h/shrek-house-2-1920x1080.jpeg",
+        "source_title": "I tried to watch Shrek every day for a month and now I'm in therapy",
+        "source_type": "Published film still, third-party article; page credits Shrek images to DreamWorks"
+      },
+      "original_sha256": "16d722c0373c7acd76b9bca7af16e20d7bd30044516ed3671b0d9144c0a5580e",
+      "original_dimensions": [
+        1920,
+        1080
+      ],
+      "original_preview": "01-shrek-original.jpg",
+      "first_frame": "01-shrek-first.jpg",
+      "first_frame_dimensions": [
+        2048,
+        1152
+      ],
+      "first_generation": {
+        "model": "black-forest-labs/flux-3-image-klein",
+        "revision": "337337621b8526e120f2275d250242f4a6bedd75",
+        "scale": 0.75,
+        "seed": 77000,
+        "steps": 16,
+        "width": 2048,
+        "height": 1152,
+        "sha256": "067479dde23bb736cecc6913ba0ad2a8cc510fb0d4d37a9113c1dedea45db13f"
+      },
+      "checkpoint_step": 1500,
+      "end_frame": null,
+      "end_status": "not_generated"
+    },
+    {
+      "id": "02-joker",
+      "title": "Joker — staircase dance",
+      "original_source": {
+        "source_page": "https://www.dc.com/movies/joker-2019",
+        "image_url": "https://static.dc.com/dc/files/default_images/Movies-Gallery_TheJoker_3_5d6753cd128d14.53917387.jpg?w=1200",
+        "title": "Joker (2019) — official DC movie gallery stair-dance still",
+        "source_type": "official film gallery still",
+        "publisher": "DC / Warner Bros."
+      },
+      "original_sha256": "af670fe2ad53a82ca3af632590d5044961b19108a4033ae5225ac479339b6b8e",
+      "original_dimensions": [
+        1200,
+        675
+      ],
+      "original_preview": "02-joker-original.jpg",
+      "first_frame": "02-joker-first.jpg",
+      "first_frame_dimensions": [
+        2048,
+        1152
+      ],
+      "first_generation": {
+        "model": "black-forest-labs/flux-3-image-klein",
+        "revision": "337337621b8526e120f2275d250242f4a6bedd75",
+        "scale": 0.75,
+        "seed": 76001,
+        "steps": 16,
+        "width": 2048,
+        "height": 1152,
+        "sha256": "465950bc603dd8443d4840374932a4b7e06fa9e8a827f40b6d9d91e6c36b120d"
+      },
+      "checkpoint_step": 1500,
+      "end_frame": null,
+      "end_status": "not_generated"
+    },
+    {
+      "id": "03-squid-game",
+      "title": "Squid Game — doll turn",
+      "original_source": {
+        "source_page": "https://www.revistacentral.com.mx/en-corto/el-juego-del-calamar-la-historia-detras-de-la-serie",
+        "image_url": "https://tv-azteca-brightspot.s3.amazonaws.com/10/98/3af8af2643439438400db0d8adc7/el-juego-del-calamar-la-historia-detras-de-la-serie.jpg",
+        "title": "‘El juego del calamar’: la historia detrás de la serie",
+        "source_type": "editorial reproduction of Netflix footage; page labels image Captura",
+        "publisher": "Revista Central / TV Azteca"
+      },
+      "original_sha256": "aabbcf458063139711d4258ef8b8d40dce0d3d6f7750b195545148c5ea83b440",
+      "original_dimensions": [
+        1200,
+        800
+      ],
+      "original_preview": "03-squid-game-original.jpg",
+      "first_frame": "03-squid-game-first.jpg",
+      "first_frame_dimensions": [
+        2048,
+        1152
+      ],
+      "first_generation": {
+        "model": "black-forest-labs/flux-3-image-klein",
+        "revision": "337337621b8526e120f2275d250242f4a6bedd75",
+        "scale": 0.75,
+        "seed": 74002,
+        "steps": 16,
+        "width": 2048,
+        "height": 1152,
+        "sha256": "cf5a45385091ae4a70664b9c2d5b5c73d0dc4876081eb90968c570cef48d93d7"
+      },
+      "checkpoint_step": 1500,
+      "end_frame": "03-squid-game-end.jpg",
+      "end_status": "rendered_candidate_needs_review",
+      "end_dimensions": [
+        2048,
+        1152
+      ],
+      "end_generation": {
+        "model": "black-forest-labs/flux-3-image-klein",
+        "revision": "337337621b8526e120f2275d250242f4a6bedd75",
+        "scale": 0.75,
+        "seed": 74102,
+        "steps": 16,
+        "width": 2048,
+        "height": 1152,
+        "sha256": "87e32a30aa22c8f915a443ce88c3c882d3e37eabbf0e1de909c0b3dec7f5191c"
+      }
+    },
+    {
+      "id": "04-ego-adult",
+      "title": "Ratatouille — Anton Ego tastes",
+      "original_source": {
+        "source_page": "https://spoonuniversity.com/school/west-chester/a-ranking-of-the-most-iconic-food-moments-in-movie-history/",
+        "image_url": "https://s3.amazonaws.com/secretsaucefiles/photos/images/000/114/354/original/ego.jpg",
+        "source_title": "A Ranking of the Most Iconic Food Moments in Movie History"
+      },
+      "original_sha256": "d73d1c2661d6fe1cb7fd944ed8761b98e52229754b9e55ff459096f560bf9adf",
+      "original_dimensions": [
+        700,
+        467
+      ],
+      "original_preview": "04-ego-adult-original.jpg",
+      "first_frame": "04-ego-adult-first.jpg",
+      "first_frame_dimensions": [
+        2048,
+        1152
+      ],
+      "first_generation": {
+        "model": "black-forest-labs/flux-3-image-klein",
+        "revision": "337337621b8526e120f2275d250242f4a6bedd75",
+        "scale": 0.75,
+        "seed": 75003,
+        "steps": 16,
+        "width": 2048,
+        "height": 1152,
+        "sha256": "8b76d92dbccc1337072aa236ac49b27c6ef4103b17d258a3140748964340ed74"
+      },
+      "checkpoint_step": 1500,
+      "end_frame": "04-ego-adult-end.jpg",
+      "end_status": "rendered_candidate_needs_review",
+      "end_dimensions": [
+        2048,
+        1152
+      ],
+      "end_generation": {
+        "model": "black-forest-labs/flux-3-image-klein",
+        "revision": "337337621b8526e120f2275d250242f4a6bedd75",
+        "scale": 0.75,
+        "seed": 74103,
+        "steps": 16,
+        "width": 2048,
+        "height": 1152,
+        "sha256": "9b7beb9b221a2b9970109c088c87827810cdc854dfc10afdf5975cdb541a0e37"
+      }
+    },
+    {
+      "id": "05-ego-childhood",
+      "title": "Ratatouille — childhood memory",
+      "original_source": {
+        "source_page": "https://www.hungryonion.org/t/your-favorite-food-scene-in-a-movie/14432?page=16",
+        "image_url": "https://cdn.hungryonion.org/original/3X/3/a/3a83824d48e7816c5c4780eadd6b016a269139a8.jpeg",
+        "source_title": "Your favorite food scene in a movie - Page 16 - Food Media and News - Hungry Onion",
+        "source_type": "Film screencap republished in a public discussion"
+      },
+      "original_sha256": "a7dfaf18160cf5cb5fc553ce0d4b356c3b753a2f4d2af866196016c39d54e6f3",
+      "original_dimensions": [
+        1280,
+        720
+      ],
+      "original_preview": "05-ego-childhood-original.jpg",
+      "first_frame": "05-ego-childhood-first.jpg",
+      "first_frame_dimensions": [
+        2048,
+        1152
+      ],
+      "first_generation": {
+        "model": "black-forest-labs/flux-3-image-klein",
+        "revision": "337337621b8526e120f2275d250242f4a6bedd75",
+        "scale": 0.75,
+        "seed": 74004,
+        "steps": 16,
+        "width": 2048,
+        "height": 1152,
+        "sha256": "8648424f76c789a415e0bb387dbda810b8fb671b91f8c10960ee61625f9c8eab"
+      },
+      "checkpoint_step": 1500,
+      "end_frame": "05-ego-childhood-end.jpg",
+      "end_status": "rendered_candidate_needs_review",
+      "end_dimensions": [
+        2048,
+        1152
+      ],
+      "end_generation": {
+        "model": "black-forest-labs/flux-3-image-klein",
+        "revision": "337337621b8526e120f2275d250242f4a6bedd75",
+        "scale": 0.75,
+        "seed": 74104,
+        "steps": 16,
+        "width": 2048,
+        "height": 1152,
+        "sha256": "6cc4db2d80efee5555d275b05bd3e5765835d3c453d35bcfa25cf941e56d17fb"
+      }
+    },
+    {
+      "id": "06-simba-rooftop",
+      "title": "Simba — Empire State rooftop / modern CGI",
+      "original_source": {
+        "source_type": "User-supplied reference image",
+        "source_file": "pasted-image-20261018-180256.png"
+      },
+      "original_sha256": "f97eb1c26ab10c45d99f49e73179c3e142609529056f5c85410e8f44054978ce",
+      "original_dimensions": [
+        738,
+        414
+      ],
+      "original_preview": "06-simba-rooftop-original.jpg",
+      "first_frame": "06-simba-rooftop-first.jpg",
+      "first_frame_dimensions": [
+        2048,
+        1152
+      ],
+      "first_generation": {
+        "model": "black-forest-labs/flux-3-image-klein",
+        "revision": "337337621b8526e120f2275d250242f4a6bedd75",
+        "scale": 0.75,
+        "seed": 77005,
+        "steps": 16,
+        "width": 2048,
+        "height": 1152,
+        "sha256": "be1513bbbd8cd8f9c0b412e08f87f494e25631879183f619232e37acafc4f33b"
+      },
+      "checkpoint_step": 1500,
+      "end_frame": null,
+      "end_status": "not_generated"
+    },
+    {
+      "id": "07-joi",
+      "title": "Blade Runner 2049 — Joi and K",
+      "original_source": {
+        "source_page": "https://dailyhive.com/vancouver/blade-runner-2049-visual-effects-vancouver",
+        "image_url": "https://images-dh-production-baselayer.dailyhive.com/uploads/2017/12/A-Joi-hologram-advertisement-interacts-with-K-in-Blade-Runner-2049-feature.jpg",
+        "title": "A Joi hologram advertisement interacts with K in Blade Runner 2049",
+        "source_type": "Public film still accompanying an interview with the film's VFX supervisors",
+        "source_credit": "Double Negative/Columbia Pictures/Warner Bros."
+      },
+      "original_sha256": "cc9edb6319f21c5158eb2017afb2801b4a20f6452bde0fb29d8325a8c32f2537",
+      "original_dimensions": [
+        1624,
+        833
+      ],
+      "original_preview": "07-joi-original.jpg",
+      "first_frame": "07-joi-first.jpg",
+      "first_frame_dimensions": [
+        2048,
+        1152
+      ],
+      "first_generation": {
+        "model": "black-forest-labs/flux-3-image-klein",
+        "revision": "337337621b8526e120f2275d250242f4a6bedd75",
+        "scale": 0.75,
+        "seed": 74006,
+        "steps": 16,
+        "width": 2048,
+        "height": 1152,
+        "sha256": "b1a300e1ba27b51034108c50128ecfe870f07027474eb5df2662576cdfd4cc1c"
+      },
+      "checkpoint_step": 1500,
+      "end_frame": "07-joi-end.jpg",
+      "end_status": "rendered_candidate_needs_review",
+      "end_dimensions": [
+        2048,
+        1152
+      ],
+      "end_generation": {
+        "model": "black-forest-labs/flux-3-image-klein",
+        "revision": "337337621b8526e120f2275d250242f4a6bedd75",
+        "scale": 0.75,
+        "seed": 74106,
+        "steps": 16,
+        "width": 2048,
+        "height": 1152,
+        "sha256": "6c0b8ed8366af2c21d17b23e3ceddd54882937da714bad936cb4de815e643b10"
+      }
+    }
+  ]
+}

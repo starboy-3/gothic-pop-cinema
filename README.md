@@ -8,13 +8,30 @@ The video model does not load the LoRA: the learned look reaches the film throug
 
 ## Results and submission status
 
-The style adapter and controlled still-image comparisons have been generated. Film assembly is in progress at this repository's initial publication. Final film and Hugging Face links will be added when available; no completed film or public model upload is claimed here.
+The style adapter and still-image candidates have been generated. **12 of 16 first/end keyframes are rendered across the Disney opening and seven scenes; four endpoints are not generated.** These frames still need action/continuity review. **No video has been produced:** BFL moderated the castle and four scene requests as **Protected Content**. No completed film or public model upload is claimed here.
+
+### Original scene → applied Gothic style
+
+**Left: original scene/reference. Right: latest Gothic first-frame candidate.** Includes the Disney castle opening, darker Shrek and Joker, and the modern-CGI Simba rooftop treatment. All styled frames use checkpoint **1500**, adapter strength **0.75**, and were rendered at **2048×1152**.
+
+![Original versus Gothic: Disney opening, Shrek, Joker and Squid Game](assets/scenes/original-vs-gothic-1.jpg)
+
+![Original versus Gothic: Anton Ego, childhood memory, Simba rooftop and Joi](assets/scenes/original-vs-gothic-2.jpg)
+
+[Open the complete comparison image](assets/scenes/original-vs-gothic.jpg) · **[View first and end frames for every scene](docs/STORYBOARD.md)** · [Sources and generation metadata](assets/scenes/provenance.json)
+
+These are reference-to-style edits, not a controlled adapter-only comparison: some poses, framing, locations and rendering media also change. The original references are not claimed to be exact opening or ending frames. Missing endpoints are explicitly marked in the storyboard; no placeholder is presented as a generated frame.
+
+<details>
+<summary>Earlier controlled adapter-off/on comparison</summary>
 
 | Same prompt and seed, adapter disabled | Same prompt and seed, Gothic LoRA at 0.75 |
 | --- | --- |
 | ![Florist without adapter](assets/comparison/base.png) | ![Florist with Gothic adapter](assets/comparison/lora.png) |
 
-This is a real comparison using Klein distilled, seed 42, 1024×1024 and 16 inference steps. Only adapter strength changes from 0 to 0.75. The prompt already describes a Gothic setting; these results demonstrate the adapter's observed effect, not proof that the base model cannot depict Gothic imagery. [Exact prompt and settings](assets/comparison/settings.json).
+Klein distilled, seed 42, 1024×1024, 16 inference steps; only adapter strength changes from 0 to 0.75. The prompt already describes a Gothic setting. [Exact prompt and settings](assets/comparison/settings.json).
+
+</details>
 
 ## How it works
 
