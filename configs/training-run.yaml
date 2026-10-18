@@ -1,0 +1,42 @@
+job: extension
+config:
+  name: klein-gotham-gothic
+  process:
+  - type: diffusion_trainer
+    training_folder: styles/gotham-gothic/output
+    device: cuda:0
+    network:
+      type: lora
+      linear: 32
+      linear_alpha: 32
+    save:
+      dtype: bf16
+      save_every: 250
+    datasets:
+    - folder_path: styles/gotham-gothic/data
+      caption_ext: txt
+      cache_latents_to_disk: true
+      resolution:
+      - 1024
+    train:
+      batch_size: 1
+      steps: 2000
+      lr: 0.0001
+      optimizer: adamw
+      dtype: bf16
+      gradient_checkpointing: true
+    model:
+      name_or_path: black-forest-labs/flux-3-image-klein-base
+      arch: flux3
+    sample:
+      neg: ''
+      sample_every: 250
+      width: 1024
+      height: 1024
+      guidance_scale: 3.5
+      sample_steps: 50
+      seed: 42
+      prompts:
+      - A lighthouse on a rocky cliff above a stormy sea at night. gthmvr style
+      - A woman cycling through a city street in the rain. gthmvr style
+      - A cat asleep on a windowsill next to a potted plant. gthmvr style

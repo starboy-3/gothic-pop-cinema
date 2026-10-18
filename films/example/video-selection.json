@@ -1,0 +1,11 @@
+{
+  "shots": [
+    {
+      "id": "01-lighthouse",
+      "frame": "frames/hero.png",
+      "motion_prompt": "The keeper slowly raises the lantern as mist drifts past the railing. Gentle camera push forward. Keep the keeper's identity, lighthouse geometry and the supplied image's visual medium and lighting consistent. One continuous shot without cuts.",
+      "duration": 10,
+      "target_seconds": 8
+    }
+  ]
+}

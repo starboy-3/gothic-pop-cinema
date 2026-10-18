@@ -1,0 +1,23 @@
+{
+  "title": "Gothic lighthouse workflow example",
+  "style": "my-style",
+  "trigger": "mylook style",
+  "model": "black-forest-labs/flux-3-image-klein",
+  "model_revision": "337337621b8526e120f2275d250242f4a6bedd75",
+  "checkpoint": "styles/my-style/output/YOUR_CHECKPOINT.safetensors",
+  "adapter_scale": 0.75,
+  "steps": 16,
+  "width": 2048,
+  "height": 1152,
+  "shared_direction": "A single wide frame of a stormy Gothic coast, cold slate-blue shadows and a sparse amber lantern. Keep the keeper's silhouette readable and the architecture coherent.",
+  "frames": [
+    {
+      "id": "hero",
+      "title": "Lighthouse keeper",
+      "kind": "reference",
+      "references": [],
+      "seed": 42,
+      "request": "A lighthouse keeper in a long dark coat stands beside an iron railing at the base of a stone lighthouse, holding a small lantern. Waves break against rocks beneath distant Gothic towers. The keeper and the full lantern are clearly visible in a medium-wide composition."
+    }
+  ]
+}

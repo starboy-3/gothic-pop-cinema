@@ -1,0 +1,42 @@
+{
+  "model": "black-forest-labs/flux-3-image-klein",
+  "revision": "337337621b8526e120f2275d250242f4a6bedd75",
+  "prompt": "Medium-wide eye-level view inside a tiny flower shop in an imposing Gothic and Art Deco city during a dark storm. Cold blue-grey storm light fills the room while a single amber desk lamp casts a concentrated pool of warm light across the counter, leaving the surrounding walls in readable, deep shadow. At the center, an elderly white woman florist in her seventies with fair, weathered skin and silver hair pinned into a loose bun sits behind a worn wooden counter. She wears a high-collared charcoal wool dress with a plain dark apron. Her face and both hands are sharply focused and unobstructed: her lined brow, closed mouth, and narrowed eyes look down toward her work, while the lamp illuminates one side of her face. Her left hand holds a single white rose upright by its green stem, and her right hand folds a sheet of creased brown paper around the bloom, with five anatomically plausible fingers pressing the paper into place. The rose remains fully visible above the paper. The compact brass desk lamp stands to her left, its amber shade producing hard-edged highlights across her knuckles, the rose petals, and the counter\u2019s scratches. Behind her, a tall pointed-arch window is streaked with rain. Beyond the glass, dense dark clouds hang over a layered city of monumental Gothic towers, stepped Art Deco spires, and shorter weathered stone buildings. Large burgundy banners hang between aged graphic advertising signs reading \"FLOWERS\" and \"CITY FLOWERS\" in condensed cream lettering. Warm amber streetlamps and scattered lit windows reflect across the wet street below. Inside the shop, sparse glass vases stand along the back wall, including one empty bottle and two narrow vessels holding bare stems. Chipped plaster exposes dark timber beneath, and oxidized iron brackets support the window. On the right, a narrow shelf holds folded brown paper and a small stack of twine. The counter\u2019s corners are worn smooth, with a chipped edge and dark water rings. Burgundy fabric banners hang inside the shop near the window, while the remaining walls recede into blue-grey shadow with no bright daylight. gthmvr style",
+  "seed": 42,
+  "width": 1024,
+  "height": 1024,
+  "steps": 16,
+  "guidance": "distilled single-pass, no CFG",
+  "jobs": [
+    {
+      "checkpoint": 1500,
+      "scale": 0.0,
+      "filename": "step-1500-scale-0.0-1024.png",
+      "adapter_sha256": "4f5d9efef974faee0365b4956c1e7d0a9c40aa81695c4d7fd7a91ed138ded44d"
+    },
+    {
+      "checkpoint": 1500,
+      "scale": 0.5,
+      "filename": "step-1500-scale-0.5-1024.png",
+      "adapter_sha256": "4f5d9efef974faee0365b4956c1e7d0a9c40aa81695c4d7fd7a91ed138ded44d"
+    },
+    {
+      "checkpoint": 1500,
+      "scale": 0.75,
+      "filename": "step-1500-scale-0.75-1024.png",
+      "adapter_sha256": "4f5d9efef974faee0365b4956c1e7d0a9c40aa81695c4d7fd7a91ed138ded44d"
+    },
+    {
+      "checkpoint": 1500,
+      "scale": 1.0,
+      "filename": "step-1500-scale-1.0-1024.png",
+      "adapter_sha256": "4f5d9efef974faee0365b4956c1e7d0a9c40aa81695c4d7fd7a91ed138ded44d"
+    }
+  ],
+  "completed": [
+    "step-1500-scale-0.0-1024.png",
+    "step-1500-scale-0.5-1024.png",
+    "step-1500-scale-0.75-1024.png",
+    "step-1500-scale-1.0-1024.png"
+  ]
+}
